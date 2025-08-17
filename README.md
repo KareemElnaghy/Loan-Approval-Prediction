@@ -47,7 +47,7 @@ This project aims to predict loan approval status using machine learning techniq
 
 
 ## 💬 Discussion
-The model was trained to predict loan approval based on the applicant's cibil score, as it showed a significant correlation with loan status. The results show that applying SMOTE significantly improved recall and F1 score for both models, especially for the minority class. Logistic Regression and Decision Tree models performed well, but Decision Tree + SMOTE achieved the highest F1 score (0.938). SMOTE resampling led to more balanced predictions, reducing bias toward the majority class. Overall, addressing class imbalance with SMOTE enhanced the models' ability to correctly identify rejected loan applications, demonstrating the effectiveness of resampling in classification tasks.
+The model was trained to predict loan approval based on the applicant's cibil score, as it showed a significant correlation with loan status. The results show that applying SMOTE significantly improved recall and F1 score for both models, especially for the minority class. Logistic Regression and Decision Tree models performed well, but Logistic Regression + SMOTE achieved the highest F1 score (0.941). SMOTE resampling led to more balanced predictions, reducing bias toward the majority class. Overall, addressing class imbalance with SMOTE enhanced the models' ability to correctly identify rejected loan applications, demonstrating the effectiveness of resampling in classification tasks.
 ---
 
 **To run the project:**  
